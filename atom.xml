@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://panzerss.github.io/</id>
     <title>森林小屋</title>
-    <updated>2020-04-11T14:13:33.160Z</updated>
+    <updated>2020-04-11T14:31:27.809Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://panzerss.github.io/"/>
     <link rel="self" href="https://panzerss.github.io/atom.xml"/>
@@ -21,7 +21,9 @@
 2：为了方便查看云盘文件，无奈自己动手搭建个人云盘onelndex，随后发现由于微软服务器原因，导致个人云盘同样速度堪忧，百度相似搭建教程，经历数天试验，其他方法全部搭建失败。主要原因：端口进不去，到现在依旧不知道原因。后经多方渠道得知限速问题是通病，现在唯一知道的解决方法是加cdn，未尝试。<br>
 3：单网盘，上传文件体验皆不好，腾讯scf搭建网盘开始尝试，体验极好。<br>
 4：有了域名，突发奇想去搭建博客，gridea+github教程成功，唯一可惜不能用手机端和网页端发博客。<br>
-总结：域名解析，宝塔安装，scf搭建，ftp上传</p>
+总结：域名解析，宝塔安装，scf搭建，ftp上传<br>
+---------------------------------<br>
+搞懂了二级域名的创建，不愁没域名了，舒服。</p>
 ]]></content>
     </entry>
 </feed>
