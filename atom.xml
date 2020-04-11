@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://panzerss.github.io/</id>
     <title>森林小屋</title>
-    <updated>2020-04-11T04:18:39.403Z</updated>
+    <updated>2020-04-11T04:41:45.090Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://panzerss.github.io/"/>
     <link rel="self" href="https://panzerss.github.io/atom.xml"/>
@@ -11,12 +11,17 @@
     <icon>https://panzerss.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 森林小屋</rights>
     <entry>
-        <title type="html"><![CDATA[text]]></title>
-        <id>https://panzerss.github.io/post/text/</id>
-        <link href="https://panzerss.github.io/post/text/">
+        <title type="html"><![CDATA[2020/4/11]]></title>
+        <id>https://panzerss.github.io/post/2020411/</id>
+        <link href="https://panzerss.github.io/post/2020411/">
         </link>
-        <updated>2020-04-10T16:02:35.000Z</updated>
-        <content type="html"><![CDATA[<p>测试文件</p>
+        <updated>2020-04-11T04:18:55.000Z</updated>
+        <content type="html"><![CDATA[<p>写个文章纪念一下这几天成果<br>
+1：白嫖不到域名，买了人生中第一个域名<br>
+2：为了方便查看云盘文件，无奈自己动手搭建个人云盘onelndex，随后发现由于微软服务器原因，导致个人云盘同样速度堪忧，百度相似搭建教程，经历数天试验，其他方法全部搭建失败。主要原因：端口进不去，到现在依旧不知道原因。后经多方渠道得知限速问题是通病，现在唯一知道的解决方法是加cdn，未尝试。<br>
+3：单网盘，上传文件体验皆不好，腾讯scf搭建网盘开始尝试，体验极好。<br>
+4：有了域名，突发奇想去搭建博客，gridea+github教程成功，唯一可惜不能用手机端和网页端发博客。<br>
+总结：域名解析，宝塔安装，scf搭建，ftp上传</p>
 ]]></content>
     </entry>
 </feed>
