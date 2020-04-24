@@ -1,22 +1,101 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://panzerss.github.io/</id>
-    <title>森林小屋</title>
-    <updated>2020-04-24T07:09:00.452Z</updated>
-    <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://panzerss.github.io/"/>
-    <link rel="self" href="https://panzerss.github.io/atom.xml"/>
-    <subtitle>温故而知新</subtitle>
-    <logo>https://panzerss.github.io/images/avatar.png</logo>
-    <icon>https://panzerss.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, 森林小屋</rights>
-    <entry>
-        <title type="html"><![CDATA[利用腾讯云函数SCF和微软OneDrive API搭建一个网盘]]></title>
-        <id>https://panzerss.github.io/post/li-yong-teng-xun-yun-han-shu-scf-he-wei-ruan-onedrive-api-da-jian-yi-ge-wang-pan/</id>
-        <link href="https://panzerss.github.io/post/li-yong-teng-xun-yun-han-shu-scf-he-wei-ruan-onedrive-api-da-jian-yi-ge-wang-pan/">
-        </link>
-        <updated>2020-04-24T07:06:11.000Z</updated>
-        <content type="html"><![CDATA[<p>原函数作者地址https://github.com/qkqpttgf/OneManager-php<br>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>利用腾讯云函数SCF和微软OneDrive API搭建一个网盘 | 森林小屋</title>
+<meta name="description" content="温故而知新">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://panzerss.github.io//favicon.ico?v=1587712137574">
+<link rel="stylesheet" href="https://panzerss.github.io//styles/main.css">
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://panzerss.github.io/">
+        <img src="https://panzerss.github.io//images/avatar.png?v=1587712137574" class="site-logo">
+        <h1 class="site-title">森林小屋</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      温故而知新
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">利用腾讯云函数SCF和微软OneDrive API搭建一个网盘</h2>
+            <div class="post-date">2020-04-24</div>
+            
+            <div class="post-content">
+              <p>原函数作者地址https://github.com/qkqpttgf/OneManager-php<br>
 首先打开腾讯云官网完成注册账号和实名认证操作。<br>
 之后进入云函数介绍界面，点击右边那个箭头进入云函数控制台。</p>
 <p>首次使用会提示要授权，授权即可：</p>
@@ -57,34 +136,47 @@ passfile ：自定义密码文件的名字，可以是’pppppp’，也可以�
 之后选择账户类型，点击下一步。本人借朋友的账号(他的onedrive账户属于office365家庭版自带1T空间类型。买的5T空间和edu邮箱注册的应该也是选择第一种)演示，选择了第一种账户类型。<br>
 利用腾讯云函数SCF和微软OneDrive API搭建一个网盘-咸鱼的日志<br>
 之后就是登录onedrive账户，询问是否允许此应用访问你的信息点击确定即可。接下来的步骤程序会自动完成，会自动帮你在云函数设置写好相关变量。等十几秒钟后就安装完成了</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[onedrive网页挂载程序OneManager-php的安装流程]]></title>
-        <id>https://panzerss.github.io/post/onedrive-wang-ye-gua-zai-cheng-xu-onemanager-php-de-an-zhuang-liu-cheng/</id>
-        <link href="https://panzerss.github.io/post/onedrive-wang-ye-gua-zai-cheng-xu-onemanager-php-de-an-zhuang-liu-cheng/">
-        </link>
-        <updated>2020-04-24T06:59:13.000Z</updated>
-        <content type="html"><![CDATA[<p>前提准备：域名，vps服务器或者虚拟机空间<br>
-程序源码  https://github.com/qkqpttgf/OneManager-php/archive/master.zip<br>
-伪静态设置rewrite ^/(.*) /index.php?/$1 last;<br>
-config.php文件有可写权限666</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2020/4/11]]></title>
-        <id>https://panzerss.github.io/post/2020411/</id>
-        <link href="https://panzerss.github.io/post/2020411/">
-        </link>
-        <updated>2020-04-11T04:18:55.000Z</updated>
-        <content type="html"><![CDATA[<p>写个文章纪念一下这几天成果<img src="https://panzerss.github.io//post-images/1586580147507.jpg" alt="" loading="lazy"><br>
-1：白嫖不到域名，买了人生中第一个域名<br>
-2：为了方便查看云盘文件，无奈自己动手搭建个人云盘onelndex，随后发现由于微软服务器原因，导致个人云盘同样速度堪忧，百度相似搭建教程，经历数天试验，其他方法全部搭建失败。主要原因：端口进不去，到现在依旧不知道原因。后经多方渠道得知限速问题是通病，现在唯一知道的解决方法是加cdn，未尝试。<br>
-3：单网盘，上传文件体验皆不好，腾讯scf搭建网盘开始尝试，体验极好。<br>
-4：有了域名，突发奇想去搭建博客，gridea+github教程成功，唯一可惜不能用手机端和网页端发博客。<br>
-总结：域名解析，宝塔安装，scf搭建，ftp上传<br>
----------------------------------<br>
-搞懂了二级域名的创建，不愁没域名了，舒服。</p>
-]]></content>
-    </entry>
-</feed>
+
+            </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://panzerss.github.io/post/onedrive-wang-ye-gua-zai-cheng-xu-onemanager-php-de-an-zhuang-liu-cheng/">
+                  <h3 class="post-title">
+                    onedrive网页挂载程序OneManager-php的安装流程
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<script type="application/javascript">
+
+AOS.init();
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+  </body>
+</html>
