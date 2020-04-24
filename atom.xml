@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://panzerss.github.io/</id>
     <title>森林小屋</title>
-    <updated>2020-04-14T03:36:34.298Z</updated>
+    <updated>2020-04-24T07:02:31.787Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://panzerss.github.io/"/>
     <link rel="self" href="https://panzerss.github.io/atom.xml"/>
@@ -10,6 +10,18 @@
     <logo>https://panzerss.github.io/images/avatar.png</logo>
     <icon>https://panzerss.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 森林小屋</rights>
+    <entry>
+        <title type="html"><![CDATA[onedrive网页挂载程序OneManager-php的安装流程]]></title>
+        <id>https://panzerss.github.io/post/onedrive-wang-ye-gua-zai-cheng-xu-onemanager-php-de-an-zhuang-liu-cheng/</id>
+        <link href="https://panzerss.github.io/post/onedrive-wang-ye-gua-zai-cheng-xu-onemanager-php-de-an-zhuang-liu-cheng/">
+        </link>
+        <updated>2020-04-24T06:59:13.000Z</updated>
+        <content type="html"><![CDATA[<p>前提准备：域名，vps服务器或者虚拟机空间<br>
+程序源码  https://github.com/qkqpttgf/OneManager-php/archive/master.zip<br>
+伪静态设置rewrite ^/(.*) /index.php?/$1 last;<br>
+config.php文件有可写权限666</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2020/4/11]]></title>
         <id>https://panzerss.github.io/post/2020411/</id>
