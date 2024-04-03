@@ -2,7 +2,7 @@ name: Scheduled HTTP Request
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # 每天UTC时间00:00运行
+    - cron: '31 13 * * *'  # 每天UTC时间00:00运行
 
 jobs:
   run-http-request:
